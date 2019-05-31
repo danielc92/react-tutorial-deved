@@ -2,26 +2,29 @@
 
 Attempting to learn fundamentals of React.
 
-# Setup
+# Process
 
-**How to obtain this repository:**
-
-```sh
-git clone https//link.to.this.projects.git-repo
-```
-
-**Modules/dependencies:**
-
-
-**Install the following dependences:**
+### Creating the React App
 
 ```sh
-cd /local/location/of/this/repo
-pip install requirements.txt
+npx create-react-app react-tutorial-deved
 ```
+
+### Folder structure
+
+**Important**
+`node_modules` - Contains npm modules (gitignore ignores these)
+`public` - Contains index and favicon
+`src` - Contains React components
+
+**Dont worry about these for now**
+`package-lock.json` - 
+`package.json` - Contains scripts (run, build, start etc)
+`README.md and .gitignore` - Version control
+
 
 # Tests
-- Tests performed on this project. What did you do? Which files were used? Was it successful?
+- No test at this point in time.
 
 # Contributors
 - Daniel Corcoran
