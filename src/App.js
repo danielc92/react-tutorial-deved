@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact';
 
 // Create component
 function App() {
@@ -9,22 +10,30 @@ function App() {
 
   const incrementCounter = () => {
     counter ++;
-    console.log(counter);
+    document.getElementById('counter').innerHTML = `I was changed to ${counter}`;
   }
 
   return (
-    <section className="content">
-      <h1>Counters (App.js)</h1>
-      <button onClick={incrementCounter}>{counter}</button>
-      <h1>Vegetable list</h1>
-      <ul>
-        {vegetables.map((veggie, index) => {
-          return <li id={index}>{veggie}</li>
-        })}  
-      </ul>        
+    <section className="section">
+        <section className="container">
+            <section className="content">
+              <h1>Main component</h1>
+              <h3>Counters (App.js)</h3>
+              <button id="counter" onClick={incrementCounter}>Click Me</button>
+              
+              <h3>Vegetable list</h3>
+              <ul>
+                {vegetables.map((veggie, index) => {
+                  return <li id={index}>{veggie}</li>
+                })}  
+              </ul>  
+
+              <Contact/>      
+            
+            </section>
+        </section>
     </section>
   );
-
 }
 
 export default App;
