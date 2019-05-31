@@ -13,15 +13,15 @@ Attempting to learn fundamentals of React.
 - Embedding a component into another component
 - Usage of Basic Hooks API (`useState()` adn `getState()`)
 
-# Process
+Overall a great tutorial, easy to follow, concise and well thought out. I learned a lot about how React is structured and behaves, as well as how it compares to other rendering engines like `jinja2`. The next steps will involve taking a deeper dive into React Hooks, deployment and integrating RESTful API into a React application.
 
-### Creating the React App
+# Creating the React App
 
 ```sh
 npx create-react-app react-tutorial-deved
 ```
 
-### Folder structure
+# Folder structure
 
 **Important**
 
@@ -37,7 +37,11 @@ npx create-react-app react-tutorial-deved
 
 # Tests
 
-- No test at this point in time.
+- Creating a new React component
+- Referencing and rendering a new React component
+- Creating a template consisting of multiple React components
+- Using map to loop through arrays and rendering them
+- Storing state and updating the state
 
 # Contributors
 
