@@ -3,20 +3,21 @@ import React from 'react';
 // Create component
 function App() {
 
-  const sayHello = () => {
-    console.log('hello');
+
+  var counter = 0;
+
+  const incrementCounter = () => {
+    counter ++;
+    console.log(counter);
   }
 
-  const changeTitle = () => {
-    title = document.querySelector('h1');
-    title.innerText = 'Something else';
-  }
+
 
   return (
     <section>
       <h1>Title</h1>
       <p>Lorem</p>
-      <button onClick={changeTitle}></button>
+      <button onClick={incrementCounter}>{counter}</button>
     </section>
   );
 }
