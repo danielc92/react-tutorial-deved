@@ -1,5 +1,6 @@
 import React from 'react';
 import Contact from './Contact';
+import Sources from './Sources';
 
 // Create component
 function App() {
@@ -27,10 +28,12 @@ function App() {
                   return <li id={index}>{veggie}</li>
                 })}  
               </ul>  
-
-              <Contact/>      
-            
             </section>
+
+            <Contact/>
+            
+            <Sources/>
+
         </section>
     </section>
   );
