@@ -4,7 +4,13 @@ Attempting to learn fundamentals of React.
 
 # Learned
 
-- 
+- Creating a react app using `create-react-app` utility
+- Running the react development server
+- Creating components
+- Writing basic JSX
+    - Embedding variables and functions using `{}` syntax
+    - Understanding syntax (eg `className` vs class)
+- Embedding a component into another component
 
 # Process
 
@@ -24,7 +30,7 @@ npx create-react-app react-tutorial-deved
 
 **Dont worry about these for now**
 
-`package-lock.json` - 
+`package-lock.json` - Contains specific versioning for packages
 `package.json` - Contains scripts (run, build, start etc)
 `README.md and .gitignore` - Version control
 
