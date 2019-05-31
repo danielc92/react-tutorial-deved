@@ -6,7 +6,7 @@ Attempting to learn fundamentals of React.
 
 - Creating a react app using `create-react-app` utility
 - Running the react development server
-- Creating components
+- Creating, referencing and exporting React Components
 - Writing basic JSX
     - Embedding variables and functions using `{}` syntax
     - Understanding syntax (eg `className` vs class)
