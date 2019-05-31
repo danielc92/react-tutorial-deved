@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+// Create component
 function App() {
+
+  const sayHello = () => {
+    console.log('hello');
+  }
+
+  const changeTitle = () => {
+    title = document.querySelector('h1');
+    title.innerText = 'Something else';
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section>
+      <h1>Title</h1>
+      <p>Lorem</p>
+      <button onClick={changeTitle}></button>
+    </section>
   );
 }
 
