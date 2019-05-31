@@ -11,6 +11,7 @@ Attempting to learn fundamentals of React.
     - Embedding variables and functions using `{}` syntax
     - Understanding syntax (eg `className` vs class)
 - Embedding a component into another component
+- Usage of Basic Hooks API (`useState()` adn `getState()`)
 
 # Process
 
