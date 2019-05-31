@@ -2,6 +2,10 @@
 
 Attempting to learn fundamentals of React.
 
+# Learned
+
+- 
+
 # Process
 
 ### Creating the React App
@@ -35,3 +39,4 @@ npx create-react-app react-tutorial-deved
 # Sources
 
 - [React Tutorial by DevEd](https://www.youtube.com/watch?v=dGcsHMXbSOA)
+- [How to loop inside React JSX](https://flaviocopes.com/react-how-to-loop/)
